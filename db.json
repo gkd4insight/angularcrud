@@ -1,1 +1,14 @@
-[{"id":"_spring","name":"_Spring FrameWork","description":"_Spring Description"},{"id":"spring","name":"Spring FrameWork","description":"Spring Description"},{"id":"java","name":"Java FrameWork","description":"Java Description"}]
+{
+  "posts": [
+    { "id": 1, "title": "Post 1" },
+    { "id": 2, "title": "Post 2" },
+    { "id": 3, "title": "Post 3" }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "some comment", "postId": 1 }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
